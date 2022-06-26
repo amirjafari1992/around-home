@@ -1,0 +1,24 @@
+.timeSlot {
+    background: #CBF8FF;
+    padding: 14px 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 4px;
+    color: rgba(0,0,0,0.7);
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all ease .5s;
+
+    &.disabled {
+        background-color: #eaeaea;
+        color: rgba(0,0,0,.3);
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+
+    &.selected, &:hover {
+        background: #fff;
+        border: 1px solid #FCD470;
+    }
+}
