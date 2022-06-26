@@ -52,7 +52,7 @@ $ git clone git@github.com:amirjafari1992/around-home.git
 $ cd around-home
 $ yarn
 ```
-> If you had any error please remove <b>package-lock.json</b> and <b>node_modules</b> folder. Then run `yarn` again.
+> If you had any error please remove <b>package-lock.json</b> or <b>yarn.lock</b> and <b>node_modules</b> folder. Then run `yarn` again.
 
 3. Running the APP:<br/>
 ```
